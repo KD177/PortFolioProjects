@@ -10,7 +10,7 @@ order by 3,4;
 
 Select Location, date, total_cases, new_cases, total_deaths, population 
 From PortfolioProject..CovidDeaths
---Where continent is not null
+Where continent is not null
 order by 1,2;
 
 
